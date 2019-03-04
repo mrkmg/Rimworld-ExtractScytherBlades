@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef>
+        <defName>ExtractScytherBlade</defName>
+        <label>Extract Scyther Blade</label>
+        <description>Extract Blades from Deactivated Scyther.</description>
+        <jobString>Extracting Scythers Blades.</jobString>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workSpeedStat>SmithingSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <workAmount>100</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Corpse_Mech_Scyther</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <ScytherBlade>1</ScytherBlade>
+        </products>
+        <recipeUsers>
+            <li>TableMachining</li>
+        </recipeUsers>
+    </RecipeDef>
+</Defs>

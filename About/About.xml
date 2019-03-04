@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Extract Scyther Blades</name>
+    <author>Kevin Gravier</author>
+    <url>https://github.com/mrkmg/Rimworld-ExtractScytherBlades</url>
+    <description>Adds the ability to acquire Scyther Blades from dead Scythers.
+
+Scyther Blades are extracted at the machining table. One Scyther yields one Scyther Blade.</description>
+    <supportedVersions>
+        <li>1.0</li>
+    </supportedVersions>
+</ModMetaData>
+
